@@ -7,8 +7,8 @@ class OneRow extends Component {
         return (
             <div className="container">
                 <div className="row">
-                    <TopArticle />
-                    <ContentBlog />
+                    <TopArticle listTopNews = {this.props.listTopNews}/>
+                    <ContentBlog listNews = {this.props.listNews} />
                 </div>
                 <br/><br/>
             </div>
